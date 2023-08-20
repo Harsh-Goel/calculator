@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.893);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3.5rem;
+    color: aliceblue;
+    margin-bottom: 7vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 8px solid whitesmoke;
+    margin: 0px 36vw;
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgb(52, 52, 52);
+}
+
+.button {
+    text-align: center;
+    background-color: rgb(188, 186, 186);
+    box-shadow: 5px 5px black;
+    padding: auto;
+    margin: 4px;
+    border: 5px double black;
+    border-radius: 20%;
+    font-size: 3rem;
+    width: 5vw;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input {
+    padding: 15px;
+    width: 20vw;
+    margin: 5px;
+    border: 5px double;
+    border-radius: 5%;
+    font-size: 2rem;
+    box-shadow: 3px 5px black;
+}
+
+
+
+
+
+@media (max-width:1390px) {
+    .container {
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+@media (max-width:1000px) {
+    .input {
+        width: 20vw;
+    }
+
+    .button {
+        width: 5vw;
+    }
+}
+
+
+
+
+
+@media(max-width:750px) {
+    .input {
+        width: 32vw;
+    }
+
+    .button {
+        font-size: 2.5rem;
+        width: 8vw;
+    }
+}
+
+
+
+
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .input {
+        padding: 5px;
+        width: 40vw;
+    }
+
+    .container {
+        padding: 10px;
+        border: 5px solid white;
+    }
+
+    .button {
+        width: 10vw;
+        margin: 3px;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+@media (max-width:400px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 10px;
+        border: 5px solid white;
+    }
+
+    .input {
+        padding: 4px;
+        width: 45vw;
+    }
+
+    .button {
+
+        font-size: 1.8rem;
+        margin: 3px;
+    }
+}
